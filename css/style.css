@@ -1,0 +1,432 @@
+*
+{
+	font-family: 'Metrophobic', Arial, serif; font-weight: 400;
+}
+
+#link1
+{
+	text-align: right;
+}
+#link1 a:link, a:visited, a:active
+{
+	text-decoration: none;
+	font-weight: bold;
+	color : #6c393d ;
+	font-size: 20px;
+}
+#link1 a:hover
+{
+	color: #b59c9e;
+}
+
+#tilearea
+{
+		background-color:#6c393d ;
+
+}
+#write
+{
+	background-color:#6c393d ;
+		float: right;
+		width: 15%
+}
+#tiles
+{
+		background-color:#6c393d ;
+		float: left;
+		width: 85%
+}
+.wrapper {
+    max-width: 100%;
+    border-color: black;
+    height: auto;
+    padding-left: 20px;
+}
+.box, .box img {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    z-index: 0;
+    margin: 2px 2px 2px 2px;
+    transition: all .15s ease-in-out;
+    border-radius: 5px;
+}
+.box:hover {
+    z-index: 100;
+    transform: scale(1.2,1.2);
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,.2);
+}
+
+
+/*header*/
+.header
+{
+	top: 0px;
+	position: fixed;
+	background-color: #6c393d;
+	width:100%;
+	height:70px;
+}
+
+.logo
+{
+	float:left;
+	width:10%;
+
+}
+
+.menu
+{
+	float: right;
+	width: 30%;
+	margin-right: 10%;
+	margin-top: -20px;
+	
+	
+	 
+}
+.menu ul
+{
+	margin:0px;
+	padding:0px;
+	list-style: none;
+
+}
+
+.menu ul li
+{
+	float:left;
+	text-decoration: none;
+
+}
+
+.menu ul li a
+{
+	text-decoration: none;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: white;
+}
+.nav
+{
+	float: right;
+}
+
+
+
+
+/* home page login and register*/
+
+
+#reg
+{
+	background-color: #6c393d;
+}
+#Login,  #register
+{
+	text-align: center;
+	padding-left: 20px;
+	font-size: 18px;
+	font-weight: bold;
+}
+#Login input, #register input, #register select, #Login button, #register button
+{
+	margin-top: 5px;
+ height:35px;
+ border:solid #e1e1e1 1px;
+ border-radius:3px;
+ padding-left:8px;
+ font-size:14px;
+ background:#f9f9f9;
+ transition-duration:0.5s;
+ box-shadow: inset 0px 0px 1px rgba(0,0,0,0.4);
+}
+#register input
+{
+	width: 50%;
+}
+#Login button, #register button
+{
+	width: 150px;
+ border:0px;
+ background: #6c393d ;
+ background:-moz-linear-gradient(top, #595959 , #515151);
+ border-radius:3px;
+ box-shadow: 1px 1px 1px rgba(1,0,0,0.2);
+ color:#f9f9f9;
+ font-size:18px;
+ text-transform:uppercase;
+}
+
+#Login button:hover , #register button:hover
+{
+		background-color: #b59c9e;
+}
+
+
+
+
+/*news feed....................*/
+
+
+#tfheader table, td, tr {    
+    border: 0px solid #ddd;
+	text-align: center;
+	width:25%;
+	margin-left: 5% ;
+}
+#tfheader table {
+    width: 80%;
+border-spacing: 50px;
+}
+
+#tfheader tr, td {
+    padding: 10px;
+	  background-color: white;
+	  padding: 30px;
+}
+	#tfheader{
+		background-color:#F9EFEA;
+	}
+	#tfnewsearch{
+		margin-top:20px;
+	}
+	.tftextinput2{
+		margin: 0;
+		padding: 5px 15px;
+		font-size:14px;
+		color:#666;
+		border:1px solid #0076a3; border-right:0px;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;
+		width: 50%;
+	}
+	.tfbutton2 {
+		margin: 0;
+		padding: 5px 7px;
+		font-size:14px;
+		font-weight:bold;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px #0076a3; border-right:0px;
+		background: #6c393d;
+		background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+		background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+	}
+	.tfbutton2:hover {
+		text-decoration: none;
+		background: #007ead;
+		background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+		background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton2::-moz-focus-inner {
+	  border: 0;
+	}
+
+
+
+/*proflie*/
+
+#outer
+{
+    text-align: left;
+    padding: 0;
+}
+.inner button
+{
+	width: 150px;
+ border:0px;
+ background: #b59c9e; ;
+ border-radius:3px;
+ box-shadow: 1px 1px 1px rgba(1,0,0,0.2);
+ color:#f9f9f9;
+ font-size:18px;
+    display: inline-block;
+    
+}
+#profile
+{
+	height:250px; width:87%;
+}
+#img_profile
+{
+	border-radius:100%; 
+	position:absolute; 
+	left: 5%; 
+	min-width:60px;
+	max-width: 300px;
+	width:250px;
+	height:250px;
+	border: 3px solid white;
+	box-shadow: 0 0 65px rgba(0, 0, 0, 0.3);
+}
+#name_profile
+{
+	text-shadow: 1px 1px;
+}
+#details_profile
+{
+
+}
+
+#p_tfheader{
+		background-color:white;
+	}
+
+#p_tfheader table, td, tr {    
+	text-align: center;
+	width:25%
+}
+
+#p_tfheader table {
+    width: 80%;
+border-spacing: 50px;
+}
+
+#p_tfheader tr, td {
+    padding: 5px;
+	  background-color: white;
+      border: 5px solid #ddd;
+
+}
+
+
+
+/* new post..........................................................*/
+
+.buttons
+{
+ padding: 3px;
+	width: 150px;
+ border:0px;
+ background: #6c393d ;
+ background:-moz-linear-gradient(top, #595959 , #515151);
+ border-radius:3px;
+ box-shadow: 1px 1px 1px rgba(1,0,0,0.2);
+ color:#f9f9f9;
+ font-size:18px;
+ text-transform:uppercase;
+}
+#newform, #newform2 {
+min-width:500px;
+padding:10px 50px;
+border:2px solid gray;
+border-radius:10px;
+background-color:#fff;
+font-size: 18px;
+}
+#newpost, #newpost2 {
+width:100%;
+height:100%;
+opacity:.95;
+top:0;
+left:0;
+display:none;
+position:fixed;
+background-color:#313131;
+overflow:auto
+}
+img#close {
+height: 30px; 
+width: 30px;
+position:absolute;
+right:4px;
+top: 4px;
+cursor:pointer
+}
+div#popup, #popup2 {
+position:absolute;
+left:40%;
+top:8%;
+margin-left:-202px;
+}
+
+#form {
+max-width:300px;
+min-width:250px;
+padding:10px 50px;
+border:2px solid gray;
+border-radius:10px;
+font-family:raleway;
+background-color:#fff
+}
+.inputs
+{
+	width: 80%;
+	margin-top: 5px;
+ height:35px;
+ border:solid #e1e1e1 1px;
+ border-radius:3px;
+ padding-left:8px;
+ font-size:14px;
+ background:#f9f9f9;
+ transition-duration:0.5s;
+ box-shadow: inset 0px 0px 1px rgba(0,0,0,0.4);
+}
+#poster
+{
+	max-height: 200px; 
+	max-width: 200px;
+}
+.thumbimage {
+    float:left;
+    width:100px;
+    height: 100px;
+    position:relative;
+    padding:5px;
+}
+
+
+/*each post.............................*/
+#post
+{
+	text-align: left;
+	width: 95%;
+	height: 100%;
+	padding-left: 10px;
+	padding-top: 10px; 
+}
+#post_imagediv
+{
+	float: left;
+	width: 80px;
+}
+#post_image
+{
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	border : 1px solid ;
+}
+#postx
+{
+	font-size: 15px;
+	width: 500px;
+}
+#post_name
+{
+	font-size: 20px;
+	font-weight: bold;
+	display: inline;
+}
+#post_college
+{
+	display: inline;
+	font-size: 15px;
+}
+#postcaption
+{
+	margin-left: 80px;
+}
+#post_poster
+{
+	width: 100%;
+	height :200px;
+}
